@@ -15,7 +15,7 @@ A través de esta actividad los estudiantes:
 
 ## 📁 Estructura del Proyecto
 
-
+```plaintext
 /
 ├── index.html                # Página principal de Login
 ├── html/
@@ -26,7 +26,7 @@ A través de esta actividad los estudiantes:
 │   └── login.css           # Hoja de estilos externa común a todas las páginas    
 ├── css/
 │   └── estilos.css           # Hoja de estilos externa común a todas las páginas
-
+```
 
 ---
 
