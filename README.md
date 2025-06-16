@@ -16,16 +16,26 @@ A través de esta actividad los estudiantes:
 ## 📁 Estructura del Proyecto
 
 ```plaintext
-/
-├── index.html                # Página principal de Login
+LOGIN_BOOTSTRAP/
+│
+├── CSS/
+│ └── estilos.css # Estilos personalizados (fondo degradado, tarjetas, etc.)
+│
 ├── html/
-│   ├── form.html        # Formulario para registrar usuarios nuevos
-│   └── recuperarContraseña.html        # Vista para recuperación de contraseña
-     └── pagina_principal.html        # Vista para página principal
+│ ├── form.html # Formulario de registro
+│ ├── pagina_principal.html # Página principal después de login
+│ └── recuperarContraseña.html # Página para recuperar contraseña
+│
+├── img/
+│ ├── perfumeria.jpg # Imagen decorativa
+│ └── vestido.webp # Logo usado en la navbar
+│
 ├── js/
-│   └── login.css           # Hoja de estilos externa común a todas las páginas    
-├── css/
-│   └── estilos.css           # Hoja de estilos externa común a todas las páginas
+│ ├── aprender.js # Script adicional (por definir)
+│ └── login.js # Validación de login (formulario, alertas)
+│
+├── index.html # Página principal de inicio de sesión
+└── README.md # Documentación del proyecto
 ```
 
 ---
