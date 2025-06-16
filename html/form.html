@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <div class=" container  mt-4 mb-4 p-4 border rounded bg-light">
+
+        <h1 class="text-center text-info"> Formulario </h1>
+        <div class="row g-3 align-items-center">
+            <label for="inputNombre" class="form-label">Nombres</label>
+            <input type="text" id="inputNombre" class="form-control" aria-describedby="nombredHelpBlock"
+                placeholder="Ingrese sus nombres" required>
+        </div>
+        <BR>
+        <div class="row g-3 align-items-center">
+            <label for="inputApellidos" class="form-label">Apellidos</label>
+            <input type="text" id="inputApellidos" class="form-control" aria-describedby="apellidosdHelpBlo6ck"
+                placeholder="Ingrese sus apellidos" required>
+        </div>
+        <br>
+        <div class="row g-3 align-items-center">
+            <label for="inputFechanacimiento" class="form-label">Fecha de Nacimientp</label>
+            <input type="date" id="inputFechanacimiento" class="form-control"
+                aria-describedby="fechanacimientodHelpBlock" placeholder="Ingrese su fecha de nacimiento" required>
+        </div>
+        <br>
+
+        <label for="inputPassword" class="form-label">Contraseña</label>
+        <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+            Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios,
+            caracteres especiales ni emojis.
+        </div>
+        <br>
+
+        <label for="inputPassword5" class="form-label">Repita su Contraseña</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+        <br>
+
+        <div class="row g-3 align-items-center">
+            <label for="inputEmail" class="form-label">Correo</label>
+            <input type="email" id="inputEmail" class="form-control" aria-describedby="EmailHelpBlock"
+                placeholder="Ingrese su Email" required>
+        </div>
+        <br>
+
+        <div class="row g-3 align-items-center">
+            <label for="inputTelefono" class="form-label">Telefono</label>
+            <input type="number" id="inputTelefono" class="form-control" aria-describedby="telefonoHelpBlock"
+                placeholder="Ingrese su telefono" required>
+        </div>
+        <br>
+
+        <label for="inputSexo" class="form-label">Sexo</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione su Sexo </option>
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+
+        </select>
+        <br>
+
+
+        <label for="inputNacionalidad" class="form-label">Nacionalidad</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Seleccione su Nacionalidad</option>
+            <option value="AF">Afganistán</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Argelia</option>
+            <option value="AR">Argentina</option>
+            <option value="AU">Australia</option>
+            <option value="AT">Austria</option>
+            <option value="BE">Bélgica</option>
+            <option value="BO">Bolivia</option>
+            <option value="BR">Brasil</option>
+            <option value="CA">Canadá</option>
+            <option value="CL">Chile</option>
+            <option value="CN">China</option>
+            <option value="CO">Colombia</option>
+            <option value="CR">Costa Rica</option>
+            <option value="CU">Cuba</option>
+            <option value="CZ">República Checa</option>
+            <option value="DK">Dinamarca</option>
+            <option value="EC">Ecuador</option>
+            <option value="EG">Egipto</option>
+
+            <option value="SV">El Salvador</option>
+            <option value="EE">Estonia</option>
+            <option value="FI">Finlandia</option>
+            <option value="FR">Francia</option>
+            <option value="DE">Alemania</option>
+            <option value="GR">Grecia</option>
+            <option value="GT">Guatemala</option>
+            <option value="HN">Honduras</option>
+            <option value="HU">Hungría</option>
+            <option value="IS">Islandia</option>
+            <option value="IN">India</option>
+            <option value="ID">Indonesia</option>
+            <option value="IR">Irán</option>
+            <option value="IE">Irlanda</option>
+            <option value="IL">Israel</option>
+            <option value="IT">Italia</option>
+            <option value="JM">Jamaica</option>
+            <option value="JP">Japón</option>
+            <option value="JO">Jordania</option>
+            <option value="KZ">Kazajistán</option>
+            <option value="KE">Kenia</option>
+            <option value="KR">Corea del Sur</option>
+            <option value="KW">Kuwait</option>
+            <option value="LV">Letonia</option>
+            <option value="LB">Líbano</option>
+            <option value="LY">Libia</option>
+            <option value="LT">Lituania</option>
+            <option value="LU">Luxemburgo</option>
+            <option value="MG">Madagascar</option>
+            <option value="MY">Malasia</option>
+            <option value="MX">México</option>
+            <option value="MA">Marruecos</option>
+            <option value="NL">Países Bajos</option>
+            <option value="NZ">Nueva Zelanda</option>
+            <option value="NI">Nicaragua</option>
+            <option value="NG">Nigeria</option>
+            <option value="NO">Noruega</option>
+            <option value="PA">Panamá</option>
+            <option value="PY">Paraguay</option>
+            <option value="PE">Perú</option>
+            <option value="PH">Filipinas</option>
+            <option value="PL">Polonia</option>
+            <option value="PT">Portugal</option>
+            <option value="QA">Qatar</option>
+            <option value="RO">Rumania</option>
+            <option value="RU">Rusia</option>
+            <option value="SA">Arabia Saudita</option>
+            <option value="RS">Serbia</option>
+            <option value="SG">Singapur</option>
+            <option value="SK">Eslovaquia</option>
+            <option value="SI">Eslovenia</option>
+            <option value="ZA">Sudáfrica</option>
+            <option value="ES">España</option>
+            <option value="SE">Suecia</option>
+            <option value="CH">Suiza</option>
+            <option value="TH">Tailandia</option>
+            <option value="TN">Túnez</option>
+            <option value="TR">Turquía</option>
+            <option value="UA">Ucrania</option>
+            <option value="AE">Emiratos Árabes Unidos</option>
+            <option value="GB">Reino Unido</option>
+            <option value="US">Estados Unidos</option>
+            <option value="UY">Uruguay</option>
+            <option value="VE">Venezuela</option>
+            <option value="VN">Vietnam</option>
+            <option value="YE">Yemen</option>
+
+        </select>
+        <br>
+
+        <div class="row g-3 align-items-center">
+            <button type="submit" class="btn btn-info"> Enviar Formulario </button>
+        </div>
+        
+        <div class="text-center mt-3">
+
+            <a href="index.html">¿Ya tienes cuenta? Inicia sesión</a>
+        </div>
+    </div>
+</body>
+
+</html>
